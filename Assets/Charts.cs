@@ -7,11 +7,16 @@ public class Charts : MonoBehaviour
 {
 
     [SerializeField] Text textComponent;
+    [SerializeField] State startingChart;
+
+    State state;
 
     // Start is called before the first frame update
     void Start()
     {
-        textComponent.text = ("37.5度以上の発熱がある");  
+        state = startingChart;
+
+        textComponent.text = state.GetStateChart();  
     }
 
     // Update is called once per frame
