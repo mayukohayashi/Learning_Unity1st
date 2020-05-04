@@ -630,7 +630,7 @@ Canvas:
   m_OverrideSorting: 0
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
-  m_AdditionalShaderChannelsFlag: 0
+  m_AdditionalShaderChannelsFlag: 25
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
@@ -727,9 +727,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'my chart game
-
-'
+  m_Text: "COVID-19\u611F\u67D3\u306E\u7591\u3044\u5224\u5225\u6CD5"
 --- !u!222 &1630007633
 CanvasRenderer:
   m_ObjectHideFlags: 0
