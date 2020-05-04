@@ -20,3 +20,6 @@
 ### ShareMyGame
 https://sharemygame.com/@mayukohayashi/~b1f76a1d-c7ac-64b4-6874-d5d7903b3fb8
 > 折角うｐってみたけど、日本語が表示されない（　＾ω＾）・・・
+https://gyazo.com/f33f5eb33259de061344ab26ebc1586://gyazo.com/f33f5eb33259de061344ab26ebc15868
+> gyazoで動画。mojaveみたいに5で動画キャプりたいな'`,､('∀`) '`,､
+
