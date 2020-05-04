@@ -7,10 +7,16 @@ using UnityEngine;
 public class State : ScriptableObject
 {
     [TextArea (10,14)][SerializeField] string chartText;
+    [SerializeField] State[]  nextStates;
 
     public string GetStateChart()
     {
         return chartText;
+    }
+
+    public State[] GetNextStates()
+    {
+        return nextStates;
     }
         
 }
