@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
@@ -15,7 +16,6 @@ public class Charts : MonoBehaviour
     void Start()
     {
         state = startingChart;
-
         textComponent.text = state.GetStateChart();
 
     }
@@ -23,6 +23,22 @@ public class Charts : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        ManageState();
+    }
+
+    private void ManageState()
+    {
+        // このvarはState[]である
+        var nextStates = state.GetNextStates();
+
+        if(Input.GetKeyDown(KeyCode.A))
+        {
+            state = nextStates[0];
+        }
+        else if(Input.GetKeyDown(KeyCode.B))
+        {
+            state = nextStates[1];
+        }
+        textComponent.text = state.GetStateChart();
     }
 }

@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a9577d4d39374438806f347c2859521, type: 3}
+  m_Name: Chart1-1
+  m_EditorClassIdentifier: 
+  chartText: "\u4EE5\u4E0B\u306E1,2,3\u306E\u3044\u305A\u308C\u304B\u306B\u3042\u3066\u306F\u307E\u308B\n\n1)\u611F\u67D3\u75C7\u60A3\u8005\u3068\u306E\u6FC3\u539A\u63A5\u89E6\u6B74\u304C\u3042\u308B\n2)\u767A\u75C7\u524D14\u65E5\u4EE5\u5185\u306B\u4E2D\u56FD\u6E56\u5317\u7701\u306B\u6EDE\u5728\u3057\u3066\u3044\u305F\n3)\u767A\u75C7\u524D14\u65E5\u4EE5\u5185\u306B\u4E2D\u56FD\u6E56\u5317\u7701\u306B\u6EDE\u5728\u3057\u3066\u3044\u305F\u4EBA\u3068\u6FC3\u539A\u63A5\u89E6\u6B74\u304C\u3042\u308B\n\nA.\u306F\u3044\nB.\u3044\u3044\u3048"
+  nextStates:
+  - {fileID: 11400000, guid: 9579a6bdc51b9487bb518363cf9e6243, type: 2}
+  - {fileID: 11400000, guid: 77240e96ed64746828030c9e50366d2b, type: 2}

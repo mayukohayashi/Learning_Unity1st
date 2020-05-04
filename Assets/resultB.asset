@@ -10,9 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2a9577d4d39374438806f347c2859521, type: 3}
-  m_Name: Chart2
+  m_Name: resultB
   m_EditorClassIdentifier: 
-  chartText: "\u54B3\u306A\u3069\u306E\u547C\u5438\u75C7\u72B6\u304C\u3042\u308B\n\nA.\u306F\u3044\nB.\u3044\u3044\u3048"
-  nextStates:
-  - {fileID: 11400000, guid: 45d085ba6f8ba4ff1b1093d972802775, type: 2}
-  - {fileID: 11400000, guid: 77240e96ed64746828030c9e50366d2b, type: 2}
+  chartText: "\u8FD1\u304F\u306E\u533B\u7642\u6A5F\u95A2\uFF08\u304B\u304B\u308A\u3064\u3051\u533B\uFF09\u306B\u76F8\u8AC7\u30FB\u53D7\u8A3A"
+  nextStates: []
