@@ -31,11 +31,11 @@ public class Charts : MonoBehaviour
         // このvarはState[]である
         var nextStates = state.GetNextStates();
 
-        if(Input.GetKeyDown(KeyCode.A))
+        if(Input.GetKeyDown(KeyCode.Alpha1))
         {
             state = nextStates[0];
         }
-        else if(Input.GetKeyDown(KeyCode.B))
+        else if(Input.GetKeyDown(KeyCode.Alpha2))
         {
             state = nextStates[1];
         }
