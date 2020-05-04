@@ -151,6 +151,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   textComponent: {fileID: 2093661047}
+  startingChart: {fileID: 11400000, guid: 0121e41648c194ab1a2b13c69371ce00, type: 2}
 --- !u!4 &609256108
 Transform:
   m_ObjectHideFlags: 0

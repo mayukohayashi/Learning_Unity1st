@@ -9,6 +9,8 @@ public class Charts : MonoBehaviour
     [SerializeField] Text textComponent;
     [SerializeField] State startingChart;
 
+    int[] oddNumbers = { 1, 3, 5, 7, 9 };
+
     State state;
 
     // Start is called before the first frame update
@@ -16,7 +18,9 @@ public class Charts : MonoBehaviour
     {
         state = startingChart;
 
-        textComponent.text = state.GetStateChart();  
+        textComponent.text = state.GetStateChart();
+
+        Debug.Log(oddNumbers[3]);
     }
 
     // Update is called once per frame
