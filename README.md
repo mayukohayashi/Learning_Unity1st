@@ -1,5 +1,6 @@
 ## Unity 練習用1
 
+
 ### 目的
 - Unityに慣れる
 - C#を少しでも理解する
@@ -16,3 +17,6 @@
 - returnを返す
 - for文（Loop）
 
+### ShareMyGame
+https://sharemygame.com/@mayukohayashi/~b1f76a1d-c7ac-64b4-6874-d5d7903b3fb8
+> 折角うｐってみたけど、日本語が表示されない（　＾ω＾）・・・
